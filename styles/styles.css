@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(0, 251, 255);
+    color: azure;
+    font-family: 'Lumanosimo', cursive;}
+
+header {
+    background-color: beige;
+}
+
+#first-paragraph {
+    border: 5px outset gray
+}
+
+[type=text] , [type=email] {
+    padding: 7px;
+}
+
+.introduction{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(30, 30, 30);
+}
+
+.profile {
+    background-color: white;
+    color: rgb(30, 30, 30);
+}
+.profile-description {
+    color: rgb(30, 30, 30);
+}
