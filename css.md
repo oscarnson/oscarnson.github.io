@@ -32,7 +32,7 @@ text-decoration: underline;
 - e.g. `text-align: right;`
 - e.g. `text-align: left;`
 - e.g. `text-align: center;`
-- e.g. text-align: justify;
+- e.g. `text-align: justify;`
 
 - Lists
 - e.g. `list-style-type: disc;` placed on the ul element
@@ -44,3 +44,30 @@ text-decoration: underline;
 `block elements`
 `inline elements` 
 `inline-block` elements
+`flex` elements (Flexbox)
+## Units
+Absolute
+- px
+- Relative
+- `em` Relative to the font-size of the parent element 
+-  `rem` Relative to font-size of the root element (better way)
+- `vw` Relative to 1% of the width of the viewport 
+- `vh` Relative to 1% of the height of the viewport 
+- `%` Relative to the parent element 
+- `calc()` works with different units
+
+## Box Model 
+- Element
+- padding
+- Border
+- Margin  
+ Background color (completely includes the border)
+
+- margin: top right bootom left -> margin 0,0,0,0
+- margin: top left-right bottom -> margin 0,0,0
+- margin: top -bottom left-right -> margin 0,0
+- margin: all -> margin: 0
+
+- e.g. `background -image: ur1(" ../images/background. jpg");`
+- e.g. `background-size: cover;`
+- e.g. `background-position: center;`
